@@ -1,0 +1,136 @@
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.main-nav ul {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav a {
+    text-decoration: None;
+    color: #353535;
+    padding: 0.6rem;
+}
+
+.main-nav img {
+    margin: 0.6rem;
+    vertical-align: middle;
+}
+
+.main-nav a:hover {
+    text-decoration: underline;
+    color: gray;
+}
+
+.main-header {
+    display: flex;
+    justify-content: right;
+    height: 50px;
+    align-items: center;
+}
+
+.container {
+    *max-width: 1800px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.search-section {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.search-bar-container {
+    display: inline-block;
+    border-radius: 40px;
+    border: 1px solid rgb(197, 197, 197);
+    width: 35%;
+    padding: 6px;
+}
+
+.search-bar-container:hover {
+    box-shadow: 0 0 5px rgb(197, 197, 197)}
+
+#search-logo {
+    margin: 5px;
+    vertical-align: middle;
+}
+
+.search-bar {
+    width:85%;
+    border: none;
+}
+
+.search-bar:enabled {
+    padding-left: 5%;
+}
+
+.search-button-container{
+    padding: 2em;
+}
+
+.search-button {
+    border: none;
+    height: 40px; 
+    width: auto;
+    padding: 10px;
+    margin: 6px;
+    border-radius: 4%;
+    font-size: 14px;
+    background-color: #f8f8f8;
+    color: rgb(121, 121, 121);
+}
+
+.language-link {
+    text-decoration: none;
+    padding: 2px;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer {
+    height: 40px;
+    background-color: rgba(179, 170, 170, 0.247);
+}
+
+.footer-top {
+    line-height: 1.5rem;
+    border-top: 1px solid rgba(114, 105, 105, 0.247);
+}
+
+.footer-bottom {
+    line-height: 3rem;
+    border-top: 1px solid rgba(114, 105, 105, 0.247);
+}
+
+.footer-text {
+    text-decoration: none;
+    padding-right: 5px;
+    padding-left: 5px;
+    color: rgb(80, 80, 80);
+    margin-left: 5px;
+}
+
+.footer-text-right {
+    float: right;
+    margin-right: 5px;
+}
+
