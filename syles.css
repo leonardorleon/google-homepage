@@ -88,10 +88,16 @@ body {
     width: auto;
     padding: 10px;
     margin: 6px;
-    border-radius: 4%;
+    border-radius: 5%;
     font-size: 14px;
     background-color: #f8f8f8;
     color: rgb(121, 121, 121);
+}
+
+.search-button:hover {
+    background-color: #f8f8f8dc;
+    border: 1px solid rgba(122, 122, 122, 0.603);
+    color: rgba(0, 0, 0, 0.801);
 }
 
 .language-link {
